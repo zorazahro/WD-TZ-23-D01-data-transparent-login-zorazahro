@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+  background-image: url(./image/montagnes-islande.avif);
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10rem;
+  justify-content: center;
+  display: inline-block;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 750px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: aliceblue;
+  padding: 10px 40px 30px;
+  border-radius: 10px;
+  
+}
+
+legend{
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 3px solid green;
+  width: 50%;
+  margin: 20% auto;
+
+}
+
+.wrapper .input-field {
+  position: relative;
+  width: 50%;
+  height: 20px;
+  margin: 10% auto;
+
+}
+
+.input-field input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 15px 15px 15px 40px;
+  border-bottom: 3px solid green;
+
+}
+
+.input-field input::placeholder {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.input-field i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+button {
+
+  width: 50%;
+  height: 45px;
+  border-radius: 6px;
+  background: transparent;
+  border: 3px solid rgb(13, 150, 13);
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  left: 25%;
+
+}
